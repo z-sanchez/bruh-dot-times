@@ -44,13 +44,13 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: "/screenshots/screenshot1-wide.png",
+            src: "/screenshots/screenshot-wide.png",
             sizes: "1920x1080",
             type: "image/png",
             form_factor: "wide",
           },
           {
-            src: "/screenshots/screenshot2-wide.png",
+            src: "/screenshots/screenshot-wide.png",
             sizes: "1920x1080",
             type: "image/png",
           },
