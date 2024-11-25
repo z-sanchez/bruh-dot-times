@@ -12,7 +12,10 @@ export default defineConfig({
         name: "Bruh Dot Times",
         short_name: "BruhTimes",
         description: "Left, Middle, and Right News Aggregator",
+        start_url: "/",
+        display: "standalone",
         theme_color: "#4D4D4D",
+        background_color: "#ffffff",
         icons: [
           {
             src: "/icons/manifest-icon-192.maskable.png",
@@ -37,6 +40,19 @@ export default defineConfig({
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable",
+          },
+        ],
+        screenshots: [
+          {
+            src: "/screenshots/screenshot1-wide.png",
+            sizes: "1920x1080",
+            type: "image/png",
+            form_factor: "wide",
+          },
+          {
+            src: "/screenshots/screenshot2-wide.png",
+            sizes: "1920x1080",
+            type: "image/png",
           },
         ],
       },
