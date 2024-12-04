@@ -7,7 +7,7 @@ const Container = ({ children }: { children: ReactNode }) => {
   console.log({ light });
 
   return (
-    <div className="dark:bg-neutral-800 .appHeight duration-500 transition-all ease-in-out  w-full  flex justify-between items-center flex-col">
+    <div className="dark:bg-neutral-800 h-dvh duration-500 transition-all ease-in-out  w-full flex justify-between items-center flex-col">
       <DarkSide
         className="pt-10 light-mode-toggle"
         duration={750}

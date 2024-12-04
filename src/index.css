@@ -15,7 +15,6 @@
 
 html,
 body,
-#root,
-.appHeight {
+#root {
   height: 100dvh;
 }
