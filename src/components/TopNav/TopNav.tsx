@@ -7,7 +7,7 @@ const TopNav = () => {
   console.log({ light });
 
   return (
-    <div className="w-full px-6 pt-8 flex justify-between items-center">
+    <div className="w-full px-6 pt-5 flex justify-between items-center">
       <BruhdotLogo className="w-36 h-fit fill-logo-light dark:fill-logo-dark" />
       <DarkSide
         className="light-mode-toggle"
