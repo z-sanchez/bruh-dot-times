@@ -18,3 +18,7 @@
 .light-mode-toggle:focus {
   outline: none;
 }
+
+.light-dark-toggle {
+  color: blue;
+}
