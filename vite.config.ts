@@ -10,7 +10,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       manifest: {
         name: "Bruh Dot Times",
-        short_name: "BruhTimes",
+        short_name: "BDT",
         description: "Left, Middle, and Right News Aggregator",
         start_url: "/",
         display: "standalone",
@@ -44,13 +44,13 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: "/screenshots/screenshot-wide.png",
+            src: "/screenshots/bruh-dot-times-screenshot-wide.png",
             sizes: "1920x1080",
             type: "image/png",
             form_factor: "wide",
           },
           {
-            src: "/screenshots/screenshot-wide.png",
+            src: "/screenshots/bruh-dot-times-screenshot-wide.png",
             sizes: "1920x1080",
             type: "image/png",
           },
