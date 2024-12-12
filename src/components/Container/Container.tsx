@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { BottomNav } from "../BottomNav";
+// import { BottomNav } from "../BottomNav";
 import { TopNav } from "../TopNav";
 
 const Container = ({ children }: { children: ReactNode }) => {
@@ -7,7 +7,7 @@ const Container = ({ children }: { children: ReactNode }) => {
     <div className="dark:bg-neutral-800 h-dvh duration-500 transition-all ease-in-out  w-full flex justify-between items-center flex-col">
       <TopNav />
       {children}
-      <BottomNav />
+      {/* <BottomNav /> */}
     </div>
   );
 };
