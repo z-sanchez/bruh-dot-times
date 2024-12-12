@@ -29,6 +29,7 @@ const BottomNav = () => {
       {NAV_OPTIONS.map((option) => {
         return (
           <div
+            key={option.id}
             className="text-slate-800 mx-5 py-2 w-1/5 flex items-center flex-col"
             onClick={() => setSelectedIcon(option.id)}
           >

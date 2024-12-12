@@ -1,25 +1,11 @@
-import { ReactNode, useState } from "react";
-import { DarkSide } from "@theme-toggles/react";
+import { ReactNode } from "react";
 import { BottomNav } from "../BottomNav";
+import { TopNav } from "../TopNav";
 
 const Container = ({ children }: { children: ReactNode }) => {
-  const [light, setLight] = useState(true);
-  console.log({ light });
-
   return (
     <div className="dark:bg-neutral-800 h-dvh duration-500 transition-all ease-in-out  w-full flex justify-between items-center flex-col">
-      <DarkSide
-        className="pt-10 light-mode-toggle"
-        duration={750}
-        toggled={light}
-        onToggle={() => {
-          document.body.classList.toggle("dark");
-          setLight((state) => !state);
-        }}
-        placeholder={undefined}
-        onPointerEnterCapture={undefined}
-        onPointerLeaveCapture={undefined}
-      />
+      <TopNav />
       {children}
       <BottomNav />
     </div>
