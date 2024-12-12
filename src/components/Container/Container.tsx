@@ -4,7 +4,7 @@ import { TopNav } from "../TopNav";
 
 const Container = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="transition-colors dark:bg-neutral-800 h-full ease-in-out w-full flex justify-between items-center flex-col">
+    <div className="transition-colors duration-200 dark:bg-neutral-800 h-full ease-in-out w-full flex justify-between items-center flex-col">
       <TopNav />
       {children}
       {/* <BottomNav /> */}
