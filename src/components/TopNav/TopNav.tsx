@@ -6,12 +6,6 @@ const TopNav = () => {
   const [light, setLight] = useState(true);
   console.log({ light });
 
-  const props = {
-    svgProps: {
-      fill: "#4d4d4d",
-    },
-  };
-
   return (
     <div className="w-full px-6 pt-6 flex justify-between items-center">
       <BruhdotLogo className="w-36 h-5 fill-logo-light dark:fill-logo-dark" />
@@ -26,7 +20,6 @@ const TopNav = () => {
         placeholder={undefined}
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}
-        {...props}
       />
     </div>
   );

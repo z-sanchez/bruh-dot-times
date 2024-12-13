@@ -1,13 +1,12 @@
 import "@theme-toggles/react/css/DarkSide.css";
 import "./App.css";
 import { Container } from "./components";
+import { FrontPage } from "./Pages/FrontPage";
 
 function App() {
   return (
     <Container>
-      <h1 className="text-2xl my-auto font-light underline dark:text-neutral-300">
-        Hello world!
-      </h1>
+      <FrontPage />
     </Container>
   );
 }

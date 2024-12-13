@@ -3,22 +3,3 @@
   margin: 0 auto;
   text-align: center;
 }
-
-.light-mode-toggle {
-  background: none;
-  border: none;
-  outline: none;
-
-  svg {
-    width: 1.3rem;
-    height: 1.3rem;
-  }
-}
-
-.light-mode-toggle:focus {
-  outline: none;
-}
-
-.light-dark-toggle {
-  color: blue;
-}
