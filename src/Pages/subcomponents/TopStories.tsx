@@ -15,7 +15,7 @@ const TopStory = () => {
     >
       <div className="absolute brightness-50 h-full w-full bg-black opacity-30"></div>
       <div className="relative w-full px-3 mb-10 text-3xl self-end">
-        <h1 className="text-white text-left w-11/12 font-bold ">
+        <h1 className="text-white text-left  max-h-32 mb-5 font-bold ">
           {theChosenOne.title}
         </h1>
       </div>
